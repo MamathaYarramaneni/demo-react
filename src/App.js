@@ -7,6 +7,7 @@ import { Card, ListGroup, Container, Row, Col } from "react-bootstrap";
 import React, { useState, useRef } from "react";
 import { Player } from "video-react";
 import ReactAudioPlayer from "react-audio-player";
+import { BsGithub } from "react-icons/bs";
 
 function App() {
   const [source, setSource] = React.useState();
@@ -30,7 +31,6 @@ function App() {
   const [row2Col4, setRow2Col4] = useState("");
   const [row3Col4, setRow3Col4] = useState("");
   const [row4Col4, setRow4Col4] = useState("");
-
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -422,7 +422,7 @@ function App() {
                 // marginLeft: "5px",
               }}
               // className="audio"
-              
+
               src={row1Col3}
               controls
             />
@@ -495,6 +495,137 @@ function App() {
               src={row1Col4}
               controls
             />
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          backgroundColor: "#D1D1D1"
+        }}
+      >
+        <div
+          style={{
+            borderColor: "#1B2430",
+            borderStyle: "solid",
+            borderRadius: "5px 5px",
+            marginLeft: "40px ",
+            marginRight: "40px",
+            paddingTop: "20px"
+          }}
+        >
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              backgroundColor: "#D1D1D1",
+              paddingLeft: "40px",
+              paddingRight: "40px",
+              borderColor: "black",
+              borderWidth: "1px",
+            }}
+          >
+            <h6> References:</h6>
+          </div>
+
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              backgroundColor: "#D1D1D1",
+              padding: "15px 40px",
+              borderColor: "black",
+              borderWidth: "1px",
+            }}
+          >
+            <div>
+              <Card style={{ width: "16rem", backgroundColor: "#f3f4f4" }}>
+                <Card.Body>
+                  <Card.Title> <BsGithub /> Card Title</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    Card Subtitle
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
+
+            <div>
+              <Card style={{ width: "16rem", backgroundColor: "#f3f4f4" }}>
+                <Card.Body>
+                  <Card.Title> <BsGithub /> Card Title</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    Card Subtitle
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
+
+            <div>
+              <Card style={{ width: "16rem", backgroundColor: "#f3f4f4" }}>
+                <Card.Body>
+                  <Card.Title> <BsGithub /> Card Title</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    Card Subtitle
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
+
+            <div>
+              <Card style={{ width: "16rem", backgroundColor: "#f3f4f4" }}>
+                <Card.Body>
+                  <Card.Title> <BsGithub /> Card Title</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    Card Subtitle
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
+
+            <div>
+              <Card style={{ width: "16rem", backgroundColor: "#f3f4f4" }}>
+                <Card.Body>
+                  <Card.Title> <BsGithub /> Card Title</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    Card Subtitle
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
           </div>
         </div>
       </div>
